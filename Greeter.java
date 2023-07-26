@@ -14,6 +14,7 @@ public class Greeter {
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name.toUpperCase();
+    //deleted markers and chose to keep .toUpperCase() version
   }
 
   public static void main(String[] args) {
